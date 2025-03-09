@@ -30,7 +30,7 @@ public class Carrera implements Runnable {
                 throw new RuntimeException(e);
             }
         }
-        System.out.println("************************** FIN DE LA CARRERA **************************");
+        System.out.println("**************" + this.corredor.getNombre() + " ha terminado la carrera. **************");
     }
 
     private void actualizarRecorrido(int pasos) {
